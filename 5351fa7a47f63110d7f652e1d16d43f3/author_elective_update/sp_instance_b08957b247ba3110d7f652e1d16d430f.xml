@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>tasks</glyph>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">348957b247ba3110d7f652e1d16d430a</sp_column>
+        <sp_widget display_value="KB News">ad2326a45b110200e23dc7ad31f91a1e</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 06:02:49</sys_created_on>
+        <sys_id>b08957b247ba3110d7f652e1d16d430f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>News</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_update_name>sp_instance_b08957b247ba3110d7f652e1d16d430f</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 07:53:45</sys_updated_on>
+        <title>News</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=b08957b247ba3110d7f652e1d16d430f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</application>
+        <file_path/>
+        <instance_id>515879d2dbbe39d005ef17291396199e</instance_id>
+        <instance_name>dev230749</instance_name>
+        <name>sp_instance_b08957b247ba3110d7f652e1d16d430f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph>tasks</glyph><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">348957b247ba3110d7f652e1d16d430a</sp_column><sp_widget display_value="KB News">ad2326a45b110200e23dc7ad31f91a1e</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>jahmellaw</sys_created_by><sys_created_on>2023-12-03 06:02:49</sys_created_on><sys_id>b08957b247ba3110d7f652e1d16d430f</sys_id><sys_mod_count>2</sys_mod_count><sys_name>News</sys_name><sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package><sys_policy/><sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope><sys_update_name>sp_instance_b08957b247ba3110d7f652e1d16d430f</sys_update_name><sys_updated_by>jahmellaw</sys_updated_by><sys_updated_on>2023-12-03 07:53:45</sys_updated_on><title>News</title><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=b08957b247ba3110d7f652e1d16d430f"/></record_update>]]></payload>
+        <payload_hash>2044248140</payload_hash>
+        <record_name>News</record_name>
+        <reverted_from/>
+        <source>962a76b2473a3110d7f652e1d16d4373</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 07:53:45</sys_created_on>
+        <sys_id>7de27b3e47fa3110d7f652e1d16d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c2eab43fd0000001</sys_recorded_at>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 07:53:45</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>35e27b3ed5fa3110f02def487268ab9a</update_guid>
+        <update_guid_history>35e27b3ed5fa3110f02def487268ab9a:2044248140,bce1b7fa39fa31103b375b21276e2d94:-1776741235,f48957b223ba3110048e5d3e833c2110:2044248140</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="News">bbe2773e47fa3110d7f652e1d16d43a5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 07:53:53</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>88918c543b634cf6b1865cd861f608a9</sys_id>
+        <sys_metadata>b08957b247ba3110d7f652e1d16d430f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>News</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_scope_delete display_value="">19aaee62693e4ec48f0dc8868aa9ccf1</sys_scope_delete>
+        <sys_update_name>sp_instance_b08957b247ba3110d7f652e1d16d430f</sys_update_name>
+        <sys_update_version display_value="sp_instance_b08957b247ba3110d7f652e1d16d430f">7de27b3e47fa3110d7f652e1d16d439a</sys_update_version>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 07:53:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

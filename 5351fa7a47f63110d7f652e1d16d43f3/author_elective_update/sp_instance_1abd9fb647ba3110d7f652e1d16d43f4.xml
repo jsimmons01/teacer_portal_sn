@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">dabd9fb647ba3110d7f652e1d16d43e5</sp_column>
+        <sp_widget display_value="Requests and Approvals">69deca02675003004b8d794717415a9b</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 06:21:12</sys_created_on>
+        <sys_id>1abd9fb647ba3110d7f652e1d16d43f4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_update_name>sp_instance_1abd9fb647ba3110d7f652e1d16d43f4</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 06:23:59</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"portal": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"max_number_of_elements_shown_on_the_list": {
+		"value": null,
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=1abd9fb647ba3110d7f652e1d16d43f4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</application>
+        <file_path/>
+        <instance_id>515879d2dbbe39d005ef17291396199e</instance_id>
+        <instance_name>dev230749</instance_name>
+        <name>sp_instance_1abd9fb647ba3110d7f652e1d16d43f4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;dabd9fb647ba3110d7f652e1d16d43e5&lt;/sp_column&gt;&lt;sp_widget display_value="Requests and Approvals"&gt;69deca02675003004b8d794717415a9b&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jahmellaw&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-03 06:21:12&lt;/sys_created_on&gt;&lt;sys_id&gt;1abd9fb647ba3110d7f652e1d16d43f4&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Teacher Portal" source="x_1059484_a_new_po"&gt;5351fa7a47f63110d7f652e1d16d43f3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Teacher Portal"&gt;5351fa7a47f63110d7f652e1d16d43f3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_1abd9fb647ba3110d7f652e1d16d43f4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;jahmellaw&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-03 06:23:59&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"portal": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"max_number_of_elements_shown_on_the_list": {
+		"value": null,
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1abd9fb647ba3110d7f652e1d16d43f4"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1551111828</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>962a76b2473a3110d7f652e1d16d4373</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 06:23:59</sys_created_on>
+        <sys_id>8f5edbf647ba3110d7f652e1d16d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c2e5915f70000001</sys_recorded_at>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 06:23:59</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>475edbf65bba311074d3fe53c750c63a</update_guid>
+        <update_guid_history>475edbf65bba311074d3fe53c750c63a:-1551111828,9ebd9fb60eba31101df19be00d7bc4f5:-1792165875</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">49ded33a47ba3110d7f652e1d16d4370</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 06:26:01</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>b528a82c41e7434cbbeb8ac644e2e761</sys_id>
+        <sys_metadata>1abd9fb647ba3110d7f652e1d16d43f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_scope_delete display_value="">19aaee62693e4ec48f0dc8868aa9ccf1</sys_scope_delete>
+        <sys_update_name>sp_instance_1abd9fb647ba3110d7f652e1d16d43f4</sys_update_name>
+        <sys_update_version display_value="sp_instance_1abd9fb647ba3110d7f652e1d16d43f4">8f5edbf647ba3110d7f652e1d16d433a</sys_update_version>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 06:26:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
