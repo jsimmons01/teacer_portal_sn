@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="XD Pen and Pad">2edf763a473a3110d7f652e1d16d4361</sc_cat_item>
+        <sc_catalog display_value="Teacher Tools">d8af323a473a3110d7f652e1d16d4315</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 04:11:46</sys_created_on>
+        <sys_id>56104b3a473a3110d7f652e1d16d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Teacher Tools.XD Pen and Pad</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_56104b3a473a3110d7f652e1d16d4345</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 04:11:46</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</application>
+        <file_path/>
+        <instance_id>515879d2dbbe39d005ef17291396199e</instance_id>
+        <instance_name>dev230749</instance_name>
+        <name>sc_cat_item_catalog_56104b3a473a3110d7f652e1d16d4345</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="DELETE"><sc_cat_item display_value="XD Pen and Pad">2edf763a473a3110d7f652e1d16d4361</sc_cat_item><sc_catalog display_value="Teacher Tools">d8af323a473a3110d7f652e1d16d4315</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>jahmellaw</sys_created_by><sys_created_on>2023-12-03 04:11:46</sys_created_on><sys_id>56104b3a473a3110d7f652e1d16d4345</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Teacher Tools.XD Pen and Pad</sys_name><sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package><sys_policy/><sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope><sys_update_name>sc_cat_item_catalog_56104b3a473a3110d7f652e1d16d4345</sys_update_name><sys_updated_by>jahmellaw</sys_updated_by><sys_updated_on>2023-12-03 04:11:46</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1034149716</payload_hash>
+        <record_name>Teacher Tools.XD Pen and Pad</record_name>
+        <reverted_from/>
+        <source>b592c3fa473a3110d7f652e1d16d43b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-03 04:22:40</sys_created_on>
+        <sys_id>f592c3fa473a3110d7f652e1d16d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c2dea041d0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-03 04:22:40</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>b992c3fa993a3110fee4d70ae5b528b6</update_guid>
+        <update_guid_history>b992c3fa993a3110fee4d70ae5b528b6:1034149716,52104b3a973a3110c58fc8ddc93ba148:-1874889120</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Teacher Tools.XD Pen and Pad">4292c3fa473a3110d7f652e1d16d43d9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-03 04:22:40</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>2b0c49b9b4464ef08d3c58a0d729e040</sys_id>
+        <sys_metadata>56104b3a473a3110d7f652e1d16d4345</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Teacher Tools.XD Pen and Pad</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_parent display_value="XD Pen and Pad">2edf763a473a3110d7f652e1d16d4361</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_scope_delete display_value="">19aaee62693e4ec48f0dc8868aa9ccf1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_56104b3a473a3110d7f652e1d16d4345</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_56104b3a473a3110d7f652e1d16d4345">f592c3fa473a3110d7f652e1d16d43b7</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-03 04:22:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
