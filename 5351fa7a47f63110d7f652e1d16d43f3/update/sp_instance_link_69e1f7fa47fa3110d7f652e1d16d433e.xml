@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph>wrench</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item display_value="XD Pen and Pad">2edf763a473a3110d7f652e1d16d4361</sc_cat_item>
+        <sc_category/>
+        <short_description>Get you XD Pen now!</short_description>
+        <size>md</size>
+        <sp_column display_value="1">b88917b247ba3110d7f652e1d16d43f6</sp_column>
+        <sp_page display_value="sw_sc_cat_item">0b12efc1870e0300e3010cf888cb0bdb</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 07:49:21</sys_created_on>
+        <sys_id>69e1f7fa47fa3110d7f652e1d16d433e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Link to XD</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_update_name>sp_instance_link_69e1f7fa47fa3110d7f652e1d16d433e</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 07:52:51</sys_updated_on>
+        <title>Link to XD</title>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=69e1f7fa47fa3110d7f652e1d16d433e"/>
+</record_update>

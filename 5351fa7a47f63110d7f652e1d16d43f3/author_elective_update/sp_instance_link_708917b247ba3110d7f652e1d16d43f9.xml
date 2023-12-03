@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph>briefcase</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>0</order>
+        <roles/>
+        <sc_cat_item display_value="XD Pen and Pad">2edf763a473a3110d7f652e1d16d4361</sc_cat_item>
+        <sc_category/>
+        <short_description>Browse the catalog for services and items you need</short_description>
+        <size>md</size>
+        <sp_column display_value="1">b88917b247ba3110d7f652e1d16d43f6</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 06:02:48</sys_created_on>
+        <sys_id>708917b247ba3110d7f652e1d16d43f9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Order XD Pen</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_update_name>sp_instance_link_708917b247ba3110d7f652e1d16d43f9</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 07:37:44</sys_updated_on>
+        <title>Order XD Pen</title>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	},
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=708917b247ba3110d7f652e1d16d43f9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</application>
+        <file_path/>
+        <instance_id>515879d2dbbe39d005ef17291396199e</instance_id>
+        <instance_name>dev230749</instance_name>
+        <name>sp_instance_link_708917b247ba3110d7f652e1d16d43f9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;briefcase&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;0&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item display_value="XD Pen and Pad"&gt;2edf763a473a3110d7f652e1d16d4361&lt;/sc_cat_item&gt;&lt;sc_category/&gt;&lt;short_description&gt;Browse the catalog for services and items you need&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;b88917b247ba3110d7f652e1d16d43f6&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jahmellaw&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-03 06:02:48&lt;/sys_created_on&gt;&lt;sys_id&gt;708917b247ba3110d7f652e1d16d43f9&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Order XD Pen&lt;/sys_name&gt;&lt;sys_package display_value="Teacher Portal" source="x_1059484_a_new_po"&gt;5351fa7a47f63110d7f652e1d16d43f3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Teacher Portal"&gt;5351fa7a47f63110d7f652e1d16d43f3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_708917b247ba3110d7f652e1d16d43f9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;jahmellaw&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-03 07:37:44&lt;/sys_updated_on&gt;&lt;title&gt;Order XD Pen&lt;/title&gt;&lt;type&gt;sc_cat_item&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	},
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=708917b247ba3110d7f652e1d16d43f9"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1401599886</payload_hash>
+        <record_name>Order XD Pen</record_name>
+        <reverted_from/>
+        <source>962a76b2473a3110d7f652e1d16d4373</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 07:37:44</sys_created_on>
+        <sys_id>933fab3a47fa3110d7f652e1d16d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c2e9c9c1b0000001</sys_recorded_at>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 07:37:44</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>5b3fab3abdfa3110b7e19f15eae76228</update_guid>
+        <update_guid_history>5b3fab3abdfa3110b7e19f15eae76228:-1401599886,05ee273accfa311035ef0bcf30175d52:1511512142,973d13b65aba3110b4e02ff096dbf2b0:842289180,619a57f26cba31109a1aa8fac89d5144:1838310875,597ad7b290ba31108cee58b5d18dcf62:1384174715,308917b286ba3110c39346612900aefb:47463479</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Order XD Pen">68e1b7fa47fa3110d7f652e1d16d4377</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 07:49:17</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>31421afcc3c84600907bd1908042d840</sys_id>
+        <sys_metadata>708917b247ba3110d7f652e1d16d43f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order XD Pen</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_scope_delete display_value="">19aaee62693e4ec48f0dc8868aa9ccf1</sys_scope_delete>
+        <sys_update_name>sp_instance_link_708917b247ba3110d7f652e1d16d43f9</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_708917b247ba3110d7f652e1d16d43f9">933fab3a47fa3110d7f652e1d16d4329</sys_update_version>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 07:49:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
