@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
-        <css_variables>$brand-primary:#1F8476;
-$body-bg:#ffffff;
-$state-success-text:#1e4335;
-$sp-homepage-bg:#fff;
-$sp-navbar-divider-color:342F28;
-$text-color:#2e2e2e;
-$sp-logo-margin-y:.5rem;
-$navbar-inverse-link-hover-color:A1A6B4;
-$panel-bg:#fff;
-$brand-success:#48C891;
-$navbar-inverse-bg:3C5461;
-$brand-warning:#DFD139;
-$brand-danger:#C83C36;
-$sp-tagline-color:#ffffff;
-$navbar-inverse-link-color:248232;
-$brand-info:#6ABECF;
-$link-color:#1F8476;
-$sp-logo-margin-x:1.5rem;
-$btn-default-bg:#fff;
-$text-muted:#666666;
+        <css_variables>$brand-primary:#5D4628;&#13;
+$body-bg:#ffffff;&#13;
+$state-success-text:#1e4335;&#13;
+$sp-homepage-bg:#fff;&#13;
+$sp-navbar-divider-color:#4E937A;&#13;
+$text-color:#2e2e2e;&#13;
+$sp-logo-margin-y:.5rem;&#13;
+$navbar-inverse-link-hover-color:#B29E8E;&#13;
+$panel-bg:#fff;&#13;
+$brand-success:#B29E8E;&#13;
+$navbar-inverse-bg:#5D4628;&#13;
+$brand-warning:#DFD139;&#13;
+$brand-danger:#C83C36;&#13;
+$sp-tagline-color:#ffffff;&#13;
+$navbar-inverse-link-color:#9B7854;&#13;
+$brand-info:#6ABECF;&#13;
+$link-color:#4E937A;&#13;
+$sp-logo-margin-x:1.5rem;&#13;
+$btn-default-bg:#fff;&#13;
+$text-muted:#666666;&#13;
 </css_variables>
         <dark_theme/>
         <default>false</default>
@@ -30,7 +30,7 @@ $text-muted:#666666;
         <icon/>
         <kb_knowledge_base/>
         <kb_knowledge_page/>
-        <login_page/>
+        <login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page>
         <logo>91c8977247ba3110d7f652e1d16d4338</logo>
         <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
         <quick_start_config/>
@@ -40,20 +40,20 @@ $text-muted:#666666;
         <search_application/>
         <search_results_configuration/>
         <sp_chat_queue/>
-        <sp_rectangle_menu/>
+        <sp_rectangle_menu display_value="Teacher Portal Menu">e875a60747b67110d7f652e1d16d435b</sp_rectangle_menu>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>jahmellaw</sys_created_by>
         <sys_created_on>2023-12-03 03:52:46</sys_created_on>
         <sys_id>f99bb236473a3110d7f652e1d16d43a8</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>81</sys_mod_count>
         <sys_name>Teacher Portal</sys_name>
         <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
         <sys_update_name>sp_portal_f99bb236473a3110d7f652e1d16d43a8</sys_update_name>
         <sys_updated_by>jahmellaw</sys_updated_by>
-        <sys_updated_on>2023-12-03 06:13:57</sys_updated_on>
-        <theme display_value="La Jolla">a7a6e78277002300a6e592718a10617a</theme>
+        <sys_updated_on>2023-12-03 21:33:38</sys_updated_on>
+        <theme/>
         <title>Teacher Portal</title>
         <ts_index_group/>
         <url_suffix>tp</url_suffix>

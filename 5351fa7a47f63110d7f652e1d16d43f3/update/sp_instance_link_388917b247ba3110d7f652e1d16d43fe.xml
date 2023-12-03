@@ -2,7 +2,7 @@
     <sp_instance_link action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
-        <color>primary</color>
+        <color>default</color>
         <css/>
         <glyph>book</glyph>
         <id/>
@@ -22,14 +22,14 @@
         <sys_created_by>jahmellaw</sys_created_by>
         <sys_created_on>2023-12-03 06:02:49</sys_created_on>
         <sys_id>388917b247ba3110d7f652e1d16d43fe</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Knowledge Base</sys_name>
         <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
         <sys_update_name>sp_instance_link_388917b247ba3110d7f652e1d16d43fe</sys_update_name>
         <sys_updated_by>jahmellaw</sys_updated_by>
-        <sys_updated_on>2023-12-03 08:22:25</sys_updated_on>
+        <sys_updated_on>2023-12-03 20:45:01</sys_updated_on>
         <title>Knowledge Base</title>
         <type>kb_category</type>
         <url/>
