@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
+    <sp_instance_menu action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column/>
+        <sp_widget display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</sp_widget>
+        <sys_class_name>sp_instance_menu</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 20:54:21</sys_created_on>
+        <sys_id>e875a60747b67110d7f652e1d16d435b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Teacher Portal Menu</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_update_name>sp_instance_menu_e875a60747b67110d7f652e1d16d435b</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 21:41:16</sys_updated_on>
+        <title>Teacher Portal Menu</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_menu>
+    <sys_translated_text action="DELETE" query="documentkey=e875a60747b67110d7f652e1d16d435b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</application>
+        <file_path/>
+        <instance_id>515879d2dbbe39d005ef17291396199e</instance_id>
+        <instance_name>dev230749</instance_name>
+        <name>sp_instance_menu_e875a60747b67110d7f652e1d16d435b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu"><sp_instance_menu action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column/><sp_widget display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</sp_widget><sys_class_name>sp_instance_menu</sys_class_name><sys_created_by>jahmellaw</sys_created_by><sys_created_on>2023-12-03 20:54:21</sys_created_on><sys_id>e875a60747b67110d7f652e1d16d435b</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Teacher Portal Menu</sys_name><sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package><sys_policy/><sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope><sys_update_name>sp_instance_menu_e875a60747b67110d7f652e1d16d435b</sys_update_name><sys_updated_by>jahmellaw</sys_updated_by><sys_updated_on>2023-12-03 21:41:16</sys_updated_on><title>Teacher Portal Menu</title><url/><widget_parameters/></sp_instance_menu><sys_translated_text action="delete_multiple" query="documentkey=e875a60747b67110d7f652e1d16d435b"/></record_update>]]></payload>
+        <payload_hash>2052193907</payload_hash>
+        <record_name>Teacher Portal Menu</record_name>
+        <reverted_from/>
+        <source>962a76b2473a3110d7f652e1d16d4373</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 21:41:16</sys_created_on>
+        <sys_id>3340be4f47b67110d7f652e1d16d43d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c31a0e41b0000001</sys_recorded_at>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 21:41:16</sys_updated_on>
+        <type>Instance with Menu</type>
+        <update_guid>3b40be4fedb671104623c198c2ff22d7</update_guid>
+        <update_guid_history>3b40be4fedb671104623c198c2ff22d7:2052193907,4b5c228b6fb671106fea8e77668662c1:1781890573,3c95e6079db67110ce9782252f948cec:2052193907</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Teacher Portal Menu">4392328347f67110d7f652e1d16d437c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 21:51:20</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_menu">sp_instance_menu</sys_db_object>
+        <sys_id>495b376adc7b440eac983ad0bff381a4</sys_id>
+        <sys_metadata>e875a60747b67110d7f652e1d16d435b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Teacher Portal Menu</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_scope_delete display_value="">19aaee62693e4ec48f0dc8868aa9ccf1</sys_scope_delete>
+        <sys_update_name>sp_instance_menu_e875a60747b67110d7f652e1d16d435b</sys_update_name>
+        <sys_update_version display_value="sp_instance_menu_e875a60747b67110d7f652e1d16d435b">3340be4f47b67110d7f652e1d16d43d8</sys_update_version>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 21:51:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

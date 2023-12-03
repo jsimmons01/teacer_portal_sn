@@ -40,20 +40,20 @@ $text-muted:#666666;&#13;
         <search_application/>
         <search_results_configuration/>
         <sp_chat_queue/>
-        <sp_rectangle_menu display_value="Teacher Portal Menu">e875a60747b67110d7f652e1d16d435b</sp_rectangle_menu>
+        <sp_rectangle_menu display_value="Common Menu">c7f5c747473a7110d7f652e1d16d431c</sp_rectangle_menu>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>jahmellaw</sys_created_by>
         <sys_created_on>2023-12-03 03:52:46</sys_created_on>
         <sys_id>f99bb236473a3110d7f652e1d16d43a8</sys_id>
-        <sys_mod_count>81</sys_mod_count>
+        <sys_mod_count>87</sys_mod_count>
         <sys_name>Teacher Portal</sys_name>
         <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
         <sys_update_name>sp_portal_f99bb236473a3110d7f652e1d16d43a8</sys_update_name>
         <sys_updated_by>jahmellaw</sys_updated_by>
-        <sys_updated_on>2023-12-03 21:33:38</sys_updated_on>
-        <theme/>
+        <sys_updated_on>2023-12-03 23:16:24</sys_updated_on>
+        <theme display_value="Basic ">54ffee4f47b67110d7f652e1d16d4383</theme>
         <title>Teacher Portal</title>
         <ts_index_group/>
         <url_suffix>tp</url_suffix>

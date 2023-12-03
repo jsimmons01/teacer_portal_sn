@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>true</display_title>
+        <internal_name>full_name</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 23:36:35</sys_created_on>
+        <sys_id>2c9ac74b473a7110d7f652e1d16d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Full Name</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_update_name>item_option_new_set_2c9ac74b473a7110d7f652e1d16d430e</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 23:36:35</sys_updated_on>
+        <title>Full Name</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</application>
+        <file_path/>
+        <instance_id>515879d2dbbe39d005ef17291396199e</instance_id>
+        <instance_name>dev230749</instance_name>
+        <name>item_option_new_set_2c9ac74b473a7110d7f652e1d16d430e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description/><display_title>true</display_title><internal_name>full_name</internal_name><layout>normal</layout><name/><order>100</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>jahmellaw</sys_created_by><sys_created_on>2023-12-03 23:36:35</sys_created_on><sys_id>2c9ac74b473a7110d7f652e1d16d430e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Full Name</sys_name><sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package><sys_policy/><sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope><sys_update_name>item_option_new_set_2c9ac74b473a7110d7f652e1d16d430e</sys_update_name><sys_updated_by>jahmellaw</sys_updated_by><sys_updated_on>2023-12-03 23:36:35</sys_updated_on><title>Full Name</title><type>one_to_one</type><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>716125953</payload_hash>
+        <record_name>Full Name</record_name>
+        <reverted_from/>
+        <source>962a76b2473a3110d7f652e1d16d4373</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 23:36:35</sys_created_on>
+        <sys_id>49ba838b473a7110d7f652e1d16d43a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c320a77190000001</sys_recorded_at>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 23:36:35</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>8dba838b7c3a7110e0d14e3b6f897fa5</update_guid>
+        <update_guid_history>8dba838b7c3a7110e0d14e3b6f897fa5:716125953</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Full Name">786b4f8b473a7110d7f652e1d16d4331</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 23:39:34</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>0df974fcae62478c86951bbbc8583f79</sys_id>
+        <sys_metadata>2c9ac74b473a7110d7f652e1d16d430e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Full Name</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_scope_delete display_value="">19aaee62693e4ec48f0dc8868aa9ccf1</sys_scope_delete>
+        <sys_update_name>item_option_new_set_2c9ac74b473a7110d7f652e1d16d430e</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_2c9ac74b473a7110d7f652e1d16d430e">49ba838b473a7110d7f652e1d16d43a6</sys_update_version>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 23:39:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

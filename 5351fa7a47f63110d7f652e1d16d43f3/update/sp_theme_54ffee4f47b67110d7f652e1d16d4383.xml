@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <footer/>
+        <footer_fixed>true</footer_fixed>
+        <header display_value="Stock Header">bf5ec2f2cb10120000f8d856634c9c0c</header>
+        <name>Basic </name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 21:40:10</sys_created_on>
+        <sys_id>54ffee4f47b67110d7f652e1d16d4383</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Basic </sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_update_name>sp_theme_54ffee4f47b67110d7f652e1d16d4383</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 23:06:06</sys_updated_on>
+        <turn_off_scss_compilation>false</turn_off_scss_compilation>
+    </sp_theme>
+</record_update>
