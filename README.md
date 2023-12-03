@@ -1,1 +1,1 @@
-# teacer_portal_sn
+# teacher_portal_sn
