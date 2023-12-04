@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>sc</category>
+        <css>.carousel-row .col-md-12 {&#13;
+  padding-left: 0;&#13;
+  padding-right: 0;&#13;
+}&#13;
+&#13;
+.pull-in {&#13;
+  margin-left: 0;&#13;
+  margin-right: 0;&#13;
+}&#13;
+&#13;
+.ts-float-right {&#13;
+  float: right;&#13;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>copy_of_sc_home_1</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles>snc_external,snc_internal</roles>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-04 09:52:12</sys_created_on>
+        <sys_id>7697d99f4732b110d7f652e1d16d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_sc_home_1</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_update_name>sp_page_7697d99f4732b110d7f652e1d16d4368</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-04 09:52:12</sys_updated_on>
+        <title>Copy of Catalog Home (1)</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=7697d99f4732b110d7f652e1d16d4368"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</application>
+        <file_path/>
+        <instance_id>515879d2dbbe39d005ef17291396199e</instance_id>
+        <instance_name>dev230749</instance_name>
+        <name>sp_page_7697d99f4732b110d7f652e1d16d4368</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>sc</category><css>.carousel-row .col-md-12 {&#13;
+  padding-left: 0;&#13;
+  padding-right: 0;&#13;
+}&#13;
+&#13;
+.pull-in {&#13;
+  margin-left: 0;&#13;
+  margin-right: 0;&#13;
+}&#13;
+&#13;
+.ts-float-right {&#13;
+  float: right;&#13;
+}</css><draft>false</draft><dynamic_title_structure/><human_readable_url_structure/><id>copy_of_sc_home_1</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles>snc_external,snc_internal</roles><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>jahmellaw</sys_created_by><sys_created_on>2023-12-04 09:52:12</sys_created_on><sys_id>7697d99f4732b110d7f652e1d16d4368</sys_id><sys_mod_count>0</sys_mod_count><sys_name>copy_of_sc_home_1</sys_name><sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package><sys_policy/><sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope><sys_update_name>sp_page_7697d99f4732b110d7f652e1d16d4368</sys_update_name><sys_updated_by>jahmellaw</sys_updated_by><sys_updated_on>2023-12-04 09:52:12</sys_updated_on><title>Copy of Catalog Home (1)</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=7697d99f4732b110d7f652e1d16d4368"/></record_update>]]></payload>
+        <payload_hash>1347991576</payload_hash>
+        <record_name>copy_of_sc_home_1</record_name>
+        <reverted_from/>
+        <source>962a76b2473a3110d7f652e1d16d4373</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-04 09:52:12</sys_created_on>
+        <sys_id>7e97d99f4732b110d7f652e1d16d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c343e13b50000001</sys_recorded_at>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-04 09:52:12</sys_updated_on>
+        <type>Page</type>
+        <update_guid>b297d99f0832b11039196633a004e86a</update_guid>
+        <update_guid_history>b297d99f0832b11039196633a004e86a:1347991576</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="copy_of_sc_home_1">e3b755df4732b110d7f652e1d16d439e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-04 09:52:48</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>0225fe1825084c94a3db565186d39110</sys_id>
+        <sys_metadata>7697d99f4732b110d7f652e1d16d4368</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_sc_home_1</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_scope_delete display_value="">19aaee62693e4ec48f0dc8868aa9ccf1</sys_scope_delete>
+        <sys_update_name>sp_page_7697d99f4732b110d7f652e1d16d4368</sys_update_name>
+        <sys_update_version display_value="sp_page_7697d99f4732b110d7f652e1d16d4368">7e97d99f4732b110d7f652e1d16d436a</sys_update_version>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-04 09:52:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>bg-white b-b m-t-n-sm m-b-xl</class_name>
+        <container_class_name/>
+        <name>Copy of Catalog Home (1) - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="copy_of_sc_home_1">7697d99f4732b110d7f652e1d16d4368</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-04 09:52:12</sys_created_on>
+        <sys_id>439751df4732b110d7f652e1d16d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Catalog Home (1) - Container 1</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_update_name>sp_container_439751df4732b110d7f652e1d16d43fd</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-04 09:52:12</sys_updated_on>
+        <title/>
+        <width>container-fluid</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</application>
+        <file_path/>
+        <instance_id>515879d2dbbe39d005ef17291396199e</instance_id>
+        <instance_name>dev230749</instance_name>
+        <name>sp_container_439751df4732b110d7f652e1d16d43fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>bg-white b-b m-t-n-sm m-b-xl</class_name><container_class_name/><name>Copy of Catalog Home (1) - Container 1</name><order>1</order><sp_page display_value="copy_of_sc_home_1">7697d99f4732b110d7f652e1d16d4368</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>jahmellaw</sys_created_by><sys_created_on>2023-12-04 09:52:12</sys_created_on><sys_id>439751df4732b110d7f652e1d16d43fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Copy of Catalog Home (1) - Container 1</sys_name><sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package><sys_policy/><sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope><sys_update_name>sp_container_439751df4732b110d7f652e1d16d43fd</sys_update_name><sys_updated_by>jahmellaw</sys_updated_by><sys_updated_on>2023-12-04 09:52:12</sys_updated_on><title/><width>container-fluid</width></sp_container></record_update>]]></payload>
+        <payload_hash>1492107312</payload_hash>
+        <record_name>Copy of Catalog Home (1) - Container 1</record_name>
+        <reverted_from/>
+        <source>962a76b2473a3110d7f652e1d16d4373</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-04 09:52:12</sys_created_on>
+        <sys_id>cf9751df4732b110d7f652e1d16d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c343e14490000001</sys_recorded_at>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-04 09:52:12</sys_updated_on>
+        <type>Container</type>
+        <update_guid>079751dfe532b1106f9892baa36974fe</update_guid>
+        <update_guid_history>079751dfe532b1106f9892baa36974fe:1492107312</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Copy of Catalog Home (1) - Container 1">6bb755df4732b110d7f652e1d16d4398</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-04 09:52:48</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>5c556d2bad7f4f11831720ff392a7829</sys_id>
+        <sys_metadata>439751df4732b110d7f652e1d16d43fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Catalog Home (1) - Container 1</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_scope_delete display_value="">19aaee62693e4ec48f0dc8868aa9ccf1</sys_scope_delete>
+        <sys_update_name>sp_container_439751df4732b110d7f652e1d16d43fd</sys_update_name>
+        <sys_update_version display_value="sp_container_439751df4732b110d7f652e1d16d43fd">cf9751df4732b110d7f652e1d16d43fe</sys_update_version>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-04 09:52:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
