@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>Teachers can order required tools. </description>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order/>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-03 03:08:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0da136ba47f63110d7f652e1d16d4316</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Teacher Portal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="A new portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="A new portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_update_name>sys_app_application_0da136ba47f63110d7f652e1d16d4316</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 03:46:28</sys_updated_on>
+        <title>Teacher Portal</title>
+        <view_name/>
+    </sys_app_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</application>
+        <file_path/>
+        <instance_id>515879d2dbbe39d005ef17291396199e</instance_id>
+        <instance_name>dev230749</instance_name>
+        <name>sys_app_application_0da136ba47f63110d7f652e1d16d4316</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>Teachers can order required tools. </description>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order/>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-03 03:08:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0da136ba47f63110d7f652e1d16d4316</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Teacher Portal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="A new portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="A new portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_update_name>sys_app_application_0da136ba47f63110d7f652e1d16d4316</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 03:46:28</sys_updated_on>
+        <title>Teacher Portal</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>]]></payload>
+        <payload_hash>-373905296</payload_hash>
+        <record_name>Teacher Portal</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 04:33:40</sys_created_on>
+        <sys_id>0315cb7e473a3110d7f652e1d16d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c2df417e40000001</sys_recorded_at>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 04:33:40</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>cf15cb7ee03a3110fc52c913e5269291</update_guid>
+        <update_guid_history>2f4a7ab29c3a31109c3ae769ad93474b:-1830823010,793a3eb2ad3a31107760c66b92398007:-450398439,9339ba72093a31107e3db9006053baa4:-1637746996,c5a136bac1f631108610d9177e4c1a19:870997113</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Teacher Portal">6aae89574732b110d7f652e1d16d43d4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-04 09:13:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>01291cc79a65453c800264094e485490</sys_id>
+        <sys_metadata>0da136ba47f63110d7f652e1d16d4316</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Teacher Portal</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_scope_delete display_value="">19aaee62693e4ec48f0dc8868aa9ccf1</sys_scope_delete>
+        <sys_update_name>sys_app_application_0da136ba47f63110d7f652e1d16d4316</sys_update_name>
+        <sys_update_version display_value="sys_app_application_0da136ba47f63110d7f652e1d16d4316">0315cb7e473a3110d7f652e1d16d4392</sys_update_version>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-04 09:13:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

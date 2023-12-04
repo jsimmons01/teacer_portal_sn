@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="angular-truncate">09e1f1416712220023c82e08f585ef1e</sp_dependency>
+        <sp_widget display_value="Copy of Header Menu">de807ecf47b67110d7f652e1d16d43e0</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 21:42:16</sys_created_on>
+        <sys_id>9a807ecf47b67110d7f652e1d16d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angular-truncate.Copy of Header Menu</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_9a807ecf47b67110d7f652e1d16d43e3</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 21:42:16</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</application>
+        <file_path/>
+        <instance_id>515879d2dbbe39d005ef17291396199e</instance_id>
+        <instance_name>dev230749</instance_name>
+        <name>m2m_sp_widget_dependency_9a807ecf47b67110d7f652e1d16d43e3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="angular-truncate">09e1f1416712220023c82e08f585ef1e</sp_dependency><sp_widget display_value="Copy of Header Menu">de807ecf47b67110d7f652e1d16d43e0</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>jahmellaw</sys_created_by><sys_created_on>2023-12-03 21:42:16</sys_created_on><sys_id>9a807ecf47b67110d7f652e1d16d43e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>angular-truncate.Copy of Header Menu</sys_name><sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package><sys_policy/><sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope><sys_update_name>m2m_sp_widget_dependency_9a807ecf47b67110d7f652e1d16d43e3</sys_update_name><sys_updated_by>jahmellaw</sys_updated_by><sys_updated_on>2023-12-03 21:42:16</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>298126613</payload_hash>
+        <record_name>angular-truncate.Copy of Header Menu</record_name>
+        <reverted_from/>
+        <source>962a76b2473a3110d7f652e1d16d4373</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-03 21:42:16</sys_created_on>
+        <sys_id>12807ecf47b67110d7f652e1d16d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c31a1cb480000001</sys_recorded_at>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-03 21:42:16</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>56807ecfb7b67110de00eafe2dd51fe5</update_guid>
+        <update_guid_history>56807ecfb7b67110de00eafe2dd51fe5:298126613</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="angular-truncate.Copy of Header Menu">8116891f47fe7110d7f652e1d16d432a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-04 08:35:37</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>1fc4836dd72e4fa09da70ee4da165c10</sys_id>
+        <sys_metadata>9a807ecf47b67110d7f652e1d16d43e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angular-truncate.Copy of Header Menu</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_scope_delete display_value="">19aaee62693e4ec48f0dc8868aa9ccf1</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_9a807ecf47b67110d7f652e1d16d43e3</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_9a807ecf47b67110d7f652e1d16d43e3">12807ecf47b67110d7f652e1d16d43e6</sys_update_version>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-04 08:35:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

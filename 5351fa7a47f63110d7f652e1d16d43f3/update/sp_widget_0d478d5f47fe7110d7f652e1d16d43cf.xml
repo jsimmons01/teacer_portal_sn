@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($http,$rootScope, $filter,$timeout,spAriaUtil) {
+	var c = this;
+	c.options.title = c.options.title || "${Explore our Knowledge Bases}";
+	c.options.post_question_label = c.options.post_question_label || "${Ask a Question}";
+	c.options.create_article_label = c.options.create_article_label || "${Create Article}";
+	c.isFirefox = false;
+	c.showMoreLink = true;
+	c.subscribedText = "${Subscribed}";
+	c.unSubscribeText = "${Unsubscribe}";
+
+	if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1){
+		c.isFirefox = true;
+	}
+	$rootScope.kb_count = c.data.total_kb_count;
+	$rootScope.articles_count = c.data.total_articles_count;
+	if (c.data.sqaUiActive)
+		$rootScope.socialqa_count = c.data.total_socialqa_count;
+	$rootScope.isMobile = c.data.isMobile;
+
+	c.getOrderedItems = function() {
+		return $filter('orderBy')(c.data.result, c.options.order_by, c.options.order_reverse);
+	}
+	c.focusFirstElement= function(e){
+		$timeout(function(){$('div.kb-action-btns').children('ul').children('li:first-child').children('a').focus();})
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.kb-browse-block{
+  margin: 0 -15px;
+}
+.kb-browse-section{
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  .kb-browse-title{
+    padding-bottom:10px;
+  }
+  .kb-header {
+    font-weight: normal;
+  }
+  .kb-header-block {
+    display: inline-block;
+    h2 {
+      font-size: 23px;
+    }
+  }
+  .vertical-divider {
+    padding-right: 12px;
+    border-right: 1px solid #bdc0c4;
+    line-height: 40px;
+  }
+  .kb-action-btns {
+    top: -3px;
+    display: inline-block;
+    position: relative;
+    margin-left: 2px;
+  }
+  .action-btns {
+    margin-left:10px;
+    height: 34px;
+  }
+  .menu-padding {
+    margin-top: 2px;
+  }
+  .kb-browse-content{
+    margin: 0;
+    .kb-tile-block {
+
+      .kb-tile{
+        .kb-top-pad{
+          padding-top:20px;
+        }
+        .subscribe-link{
+          display:block;
+          width: 100%;
+          padding: 0px;
+          text-decoration: none;
+
+          &amp;:focus{
+            outline: none;
+          }
+          &amp;:focus &gt; .kb-subscribe{
+            outline: 5px auto $brand-primary;
+            outline-offset: -2px;
+          }
+        }
+        .kb-top a{
+          display:block;
+        }
+        .kb-subscribe{
+          padding: 5px 10px;
+          font-size: 16px;
+          color:$brand-primary-darker;
+          
+          .unsub-icon i{
+            padding-right:4px;
+          }
+          .sub-icon i{
+            color: $text-muted;
+            padding-right:7px;
+          }
+          .sub-text{
+            color:$text-muted;
+          }
+          .unsub-text:hover span{
+            display:none;
+          }
+          .unsub-text:hover:after{
+            content:attr(data-hover);
+          }
+        }
+        .kb-tile-link {
+          padding:10px 5px;
+          .link-icon img, .link-icon i{
+            font-size: 50px;
+            height:50px;
+            color:#000000;
+          }
+          .link-text{
+            height: 40px;
+            padding:0 5px;
+            h3 {
+              color:$text-color;
+              font-weight: normal;
+              display:block;
+              display: -webkit-box;
+              font-size: 16px;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              text-align:center;
+              line-height:1.2em;
+            }
+            .big-title{
+              position:relative;
+              line-height:1.2em;
+              height:2.4em;
+            }
+            .big-title:after {
+              content:"...";
+              font-weight:bold;
+              position:relative;
+              bottom:0;
+              right:0;
+              letter-spacing: .10em;
+            }
+          }
+        }
+      }
+    }
+    .kb-hide-me {
+      display: none;
+    }
+  }
+	.kb-details{
+      .kb-summary{
+        padding:4px;
+        .kb-count{
+          padding:3px;
+          font-size:13px;
+          font-weight:400px;
+        }
+      }
+    }
+  .kb-bottom{
+     padding:0px;
+     button:hover,button:focus{
+         background-color:$thumbnail-border;
+    }
+     .unsub-icon i:hover,.unsub-icon i:focus{
+         color:$brand-primary-darker;
+    }
+  }
+  .kb-show-more{
+    padding-bottom: 15px;
+
+    .btn{
+      text-decoration: none; 
+    }
+
+    .show_less i{
+      vertical-align: middle;
+    }
+  }
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>title,color,css</field_list>
+        <has_preview>false</has_preview>
+        <id>tp_knowledge_base</id>
+        <internal>false</internal>
+        <link><![CDATA[function(scope,spAriaUtil) {
+	var c = scope.c;
+	$timeout = $injector.get('$timeout');
+	spAriaUtil = $injector.get('spAriaUtil');
+	c.toggleKbTiles = function(elm){
+		$('.kb-browse-content .kb-hidden-tile').toggleClass('kb-hide-me');
+		c.showMoreLink = !c.showMoreLink;
+
+		if(elm == "more"){
+			$('.kb-browse-content .kb-tile-block:nth-child(5) a:first').focus();
+		}
+	}
+	
+	c.updateSubscription = function(item, $event){
+		$event.stopPropagation();
+		$event.preventDefault();
+
+		var input = {};
+		input.id = item.sys_id;
+		var notifySub = "";
+		if(item.subscribed){
+			input.action = 'unsubscribe';
+			notifySub = "${Unsubscribed from knowledge base} "+ item.title;
+		}else{
+			input.action = 'subscribe';
+			notifySub = "${Subscribed to knowledge base} "+ item.title;
+		}
+
+		c.server.get(input).then(function(r) {
+			item.subscribed = !item.subscribed
+			$timeout(function(){$('#subscribeButton_'+item.sys_id).focus()},0);
+			//c.notity_subscription = notifySub;
+			spAriaUtil.sendLiveMessage(notifySub);
+		});
+	};
+
+	c.getKBLabel = function(kb,articleCount,questionCount,qaEnable){
+		var kBLabel = '';
+		if(qaEnable && c.data.sqaUiActive){
+			kBLabel = c.data.kb_label_qa;
+			kBLabel = kBLabel.toString().replace('{0}',kb).replace('{1}',articleCount).replace('{2}',questionCount);
+		}else{
+			kBLabel = c.data.kb_label;
+			kBLabel = kBLabel.toString().replace('{0}',kb).replace('{1}',articleCount);
+		}
+
+		return kBLabel;
+	};
+
+	c.getTranslatedText = function(text, variable){
+		return text.toString().replace('{0}',variable);
+	};
+
+	c.updateSubText = function(item,focus){
+
+		if(focus){
+			item.subscribedLabel=c.data.SUBSCRIBED_LABEL;
+		//	$('.unsub_'+item.sys_id).html("<span>"+c.subscribedText+"</span>");
+		}
+		else{
+			item.subscribedLabel=c.data.UNSUBSCRIBE_LABEL;
+			//$('.unsub_'+item.sys_id).html("<span>"+c.unSubscribeText+"</span>");
+		}
+
+	};
+
+	c.trimTitle = function(title){
+		return title.substring(0,27);
+	};
+}]]></link>
+        <name>TP Knowledge Base</name>
+        <option_schema>[{"hint":"Field to order Knowledge bases tiles","name":"order_by","default_value":"title","label":"Order By","type":"string"},{"hint":"Reverse the selected order","name":"order_reverse","default_value":"false","label":"Reverse Order","type":"boolean"},{"hint":"Label for Post Question","name":"post_question_label","default_value":"","label":"Post Question Label","type":"string"},{"hint":"Label for Create Article","name":"create_article_label","default_value":"","label":"Create Article Label","type":"string"},{"hint":"Url for Post Question","name":"post_question_url","default_value":"?id=sqanda_new_question","label":"Post Question Url","type":"string"},{"hint":"Url for Create Article","name":"create_article_url","default_value":"knowledge_create.do?sys_id=-1&amp;sysparm_stack=kb","label":"Create Article Url","type":"string"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	if(input){
+		var status = "failed";
+        if(input.id && input.action){
+			if(input.action == "subscribe"){
+				subscribeKB(input.id);
+				status ="success";
+			}else if(input.action == "unsubscribe"){
+				unSubscribeKB(input.id);
+				status ="success";
+			}
+		}
+		data.status = status;
+	}else{
+		data.sqaUiActive = GlidePluginManager.isActive('com.snc.knowledge.social_qa.ui');
+		options.order_by = options.order_by ? options.order_by : "title";
+		options.order_reverse = options.order_reverse ? options.order_reverse == 'true': false;
+		data.instanceid = $sp.getDisplayValue("sys_id");
+		data.kb_label = gs.getMessage('{0} -{1} knowledge base articles');
+		data.kb_label_qa = gs.getMessage('{0} - {1} knowledge base articles and {2} questions');
+		data.SUBSCRIBED_LABEL= gs.getMessage('Subscribed');
+		data.UNSUBSCRIBE_LABEL = gs.getMessage('Unsubscribe');
+		data.SUBSCRIBE_LABEL= gs.getMessage('Subscribe');
+
+		var kbService = new KBPortalService();
+		options.knowledge_bases = options.knowledge_bases || String(kbService.getServicePortalKnowledgeBases($sp.getPortalRecord().url_suffix)) || "";
+		data.isMobile = kbService.isMobile();
+		data.result = kbService.getMyKnowledgeBases(options.order_by,options.knowledge_bases);
+		var kbCount = data.result.length;
+		var articleCount = 0;
+		var socailqaCount = 0;
+
+		data.result.forEach(function(key){
+			articleCount = articleCount + parseInt(key.article_count,10);
+			if (data.sqaUiActive)
+				socailqaCount = socailqaCount + parseInt(key.questions_count,10);
+
+		});
+
+		var canSuscribe = false;
+		var canCreateArticle = false;
+		var canPostQuestion = false;
+		var kbService2 = new KBPortalService();
+		canSuscribe = kbService2.canSubscribe();
+		canCreateArticle = kbService2.canCreateArticle(options.knowledge_bases);
+		canPostQuestion = kbService2.canPostQuestion(options.knowledge_bases);
+
+		data.total_kb_count = kbCount;
+		data.total_articles_count = articleCount;
+		if (data.sqaUiActive)
+			data.total_socialqa_count = socailqaCount;
+		data.canSuscribe = canSuscribe;
+		data.canCreateArticle = canCreateArticle;
+		data.canPostQuestion = canPostQuestion;
+		data.subscribeText = gs.getMessage("Subscribe to knowledge base {0}")
+		data.unsubscribeText = gs.getMessage("Unsubscribe from knowledge base {0}");
+		data.moreActionsLabel = gs.getMessage("Actions");
+		data.moreActionsAriaLabel = gs.getMessage("More actions");
+	}
+
+	function subscribeKB(kbID){
+		var context = global.ActivitySubscriptionContext.getContext();
+		context.getSubscriptionService().subscribe("722d67c367003200d358bb2d07415a9c",kbID);
+	}
+
+	function unSubscribeKB(kbID){
+		var context = global.ActivitySubscriptionContext.getContext();
+		context.getSubscriptionService().unsubscribe(kbID);
+	}
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-04 08:40:48</sys_created_on>
+        <sys_id>0d478d5f47fe7110d7f652e1d16d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TP Knowledge Base</sys_name>
+        <sys_package display_value="Teacher Portal" source="x_1059484_a_new_po">5351fa7a47f63110d7f652e1d16d43f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Teacher Portal">5351fa7a47f63110d7f652e1d16d43f3</sys_scope>
+        <sys_update_name>sp_widget_0d478d5f47fe7110d7f652e1d16d43cf</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-04 08:40:48</sys_updated_on>
+        <template><![CDATA[<div class="kb-browse-{{::c.data.instanceid}} kb-browse-block">
+  <div class="kb-browse-section self-clear col-xs-12">
+    <span aria-live="assertive" class="sr-only ng-binding" role="alert">{{c.notity_subscription}}</span>
+    <div class="kb-browse-title">
+      <div class="kb-header-block">
+        <h2 class="kb-header hidden-xs" ng-class="{'vertical-divider': c.data.canCreateArticle || c.data.canPostQuestion}" ng-bind="::c.options.title"></h2>
+        <h2 id="kbBrowseTitle" class="kb-header hidden-md hidden-lg hidden-sm visible-xs" ng-class="{'vertical-divider': c.data.canCreateArticle || c.data.canPostQuestion}" ng-bind="::c.options.title"></h2>
+      </div>
+      <div class="kb-action-btns" ng-if="(c.data.canCreateArticle || c.data.canPostQuestion)">
+        <a class="btn btn-default hidden-xs action-btns" ng-if="c.data.sqaUiActive && c.data.canPostQuestion" href="{{::c.options.post_question_url}}" ng-bind="::c.options.post_question_label"></a>
+        <button aria-controls="actions_menu" 
+                class="btn btn-default dropdown-toggle action-btns"
+                ng-class="{'visibile-xs':c.data.canCreateArticle || c.data.canPostQuestion, 'hidden-lg hidden-md hidden-sm':!c.data.canCreateArticle}" 
+                data-toggle="dropdown"                
+                ng-click="c.focusFirstElement($event)"
+                aria-label="{{data.moreActionsAriaLabel}}">
+          {{data.moreActionsLabel}}
+          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-right" ng-if="c.data.canCreateArticle || c.data.canPostQuestion" id="actions_menu">
+          <li ng-if="c.data.canCreateArticle"><a target="_blank" href="{{::options.create_article_url}}" ng-bind="::c.options.create_article_label"></a></li>
+          <li class="hidden-md hidden-lg hidden-sm visible-xs" ng-if="c.data.sqaUiActive && c.data.canPostQuestion"><a href="{{::c.options.post_question_url}}" ng-bind="::c.options.post_question_label"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="kb-browse-content self-clear">
+      <div class="kb-browse-tiles" ng-class="c.data.result.length > 3 ? 'kb-browse-tiles-more' : c.data.result.length > 2 ? 'kb-browse-tiles-3' : c.data.result.length > 1 ? 'kb-browse-tiles-2' : 'kb-browse-tiles-1'" aria-labelledby="kbBrowseTitle" role="list">
+        <div class="kb-tile-block col-xs-6 col-sm-6 col-md-3" role="group" ng-class="{'kb-tile-block-more':c.data.result.length > 4,'kb-tile-block-4':c.data.result.length == 4,'kb-tile-block-3':c.data.result.length == 3,'kb-tile-block-2':c.data.result.length == 2,'kb-tile-block-1':c.data.result.length == 1,'kb-hidden-tile kb-hide-me':$index > 3}"
+             data-ng-repeat="item in c.getOrderedItems() track by item.sys_id" role="listitem">
+          <div class="kb-tile panel panel-{{::options.color}}">
+            <div class="kb-top kb-tile-link kb-center" >
+              <a href="?id=kb_search&kb_knowledge_base={{::item.sys_id}}" aria-label="${{{::c.getKBLabel(item.title,item.article_count,item.questions_count,item.enable_socialqa)}}}">
+                <div class="link-icon">
+                  <img alt="" src="default_knowledge_base.svg" aria-hidden="true" data-ng-if="!item.icon"/>
+                  <img alt="" data-ng-src="{{::item.icon}}.iix" aria-hidden="true" data-ng-if="item.icon"/>
+                </div>
+                <div ng-if="!c.isFirefox" class="link-text" title="${knowledge base}">
+                        <h3 id="{{'kbTitle'+$index}}" ng-bind="::item.title"></h3>
+                </div>
+                <div ng-if="c.isFirefox" class="link-text" title="${knowledge base}">
+                        <h3 ng-if="item.title.length < 27" ng-bind="::item.title"></h3>
+                        <h3 ng-if="item.title.length > 26" class="big-title" ng-bind="::c.trimTitle(item.title)"></h3>
+                </div>
+                <div class="kb-details" ng-if="item.article_count || item.article_count == 0 || (item.enable_socialqa && (item.questions_count || item.questions_count == 0))">
+                  <span class="kb-summary">
+                    <i class="fa fa-file-text" aria-hidden="true"></i>
+                    <span class="kb-count" ng-bind="::item.article_count"></span>
+                  </span>
+                  <span title="${Social Q&A}" ng-if="item.enable_socialqa && c.data.sqaUiActive">
+                    <span class="kb-summary">
+                      <i class="fa fa-question-circle" aria-hidden="true"></i>
+                      <span class="kb-count" ng-bind="::item.questions_count"></span>
+                    </span>
+                  </span>
+                </div>
+              </a>                    
+            </div>
+            <div class="kb-bottom panel-footer" ng-class="{'kb-top-pad':!c.data.canSuscribe}">
+              <button ng-if="c.data.canSuscribe && !item.subscribed" 
+                      id="subscribeButton_{{::item.sys_id}}"
+                      ng-click="::c.updateSubscription(item, $event)"
+                      class="subscribe-link sublink_{{::item.sys_id}} btn btn-link kb-subscribe"  
+                      ng-focus="::c.updateSubText(item,0)"
+                      ng-blur="::c.updateSubText(item,1)"
+                      >
+                <span class="sub-icon">
+                	<i class="fa fa-circle-o" aria-hidden="true"></i>
+                  <span class="sub-text" aria-hidden="true">{{c.data.SUBSCRIBE_LABEL}}</span>
+                  <span class="sr-only">{{c.getTranslatedText(c.data.subscribeText, item.title)}}</span>
+                </span>
+              </button>
+                
+              <button ng-if="c.data.canSuscribe && item.subscribed"
+                      id="subscribeButton_{{::item.sys_id}}"
+                      ng-click="::c.updateSubscription(item, $event)"                      
+                      class="subscribe-link sublink_{{::item.sys_id}} btn btn-link kb-subscribe"  
+                      ng-focus="::c.updateSubText(item,0)"
+                      ng-mouseover="::c.updateSubText(item,0)"
+                      ng-blur="::c.updateSubText(item,1)"
+                      ng-mouseleave="c.updateSubText(item,1)">
+                <span class="unsub-icon">
+                  <i class="fa fa-check-circle" aria-hidden="true"></i>
+                  <span data-hover="${Unsubscribe}" class="unsub-text unsub_{{::item.sys_id}}">
+                    <span aria-hidden="true">{{item.subscribedLabel?item.subscribedLabel:c.data.SUBSCRIBED_LABEL}}</span>
+                    <span class="sr-only">{{c.getTranslatedText(c.data.unsubscribeText, item.title)}}</span>
+                  </span>
+                </span>
+              
+              </button>
+            </div>
+         </div>
+      </div>
+    </div>
+    <div class="kb-show-more self-clear col-xs-12" data-ng-if="c.data.result ? c.data.result.length > 4 : false">
+      <button class="btn btn-link" aria-expanded="{{!c.showMoreLink}}" data-ng-click="c.showMoreLink ? c.toggleKbTiles('more') : c.toggleKbTiles('less')">
+        <span class="show_more"  data-ng-if="c.showMoreLink">
+          <span class="sr-only">${Show All Knowledge Bases}</span>
+          <span aria-hidden="true">${Show All}&nbsp;<i class="fa fa-plus" aria-hidden="true"></i></span>
+        </span>
+        <span class="show_less"  data-ng-if="!c.showMoreLink">
+          <span class="sr-only">${Show Less Knowledge Bases}</span>
+          <span aria-hidden="true">${Show Less}&nbsp;<i class="fa fa-minus" aria-hidden="true"></i></span>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+<style>
+  .kb-browse-{{::c.data.instanceid}} .kb-browse-tiles{
+    display: table;
+    margin: 0 auto;
+  }
+  .kb-browse-{{::c.data.instanceid}} .kb-browse-tiles-more{
+    display: block;
+    margin: 0 5rem;
+  }
+  /*---------------------------- */
+  .kb-browse-{{::c.data.instanceid}} .kb-tile-block {
+    padding: 0 1rem;
+    width:25rem;
+  }
+  .kb-browse-{{::c.data.instanceid}} .kb-tile-block-more {
+    padding: 0 1rem;
+    width:25%;
+  }
+  @media screen and (max-width: 1200px){
+    .kb-browse-{{::c.data.instanceid}} .kb-browse-tiles{
+      margin: 0 5rem;
+      display: flex;
+      margin: 0 auto;
+    }
+    .kb-browse-{{::c.data.instanceid}} .kb-browse-tiles-more{
+      display: block;
+      margin: 0 15rem;
+    }
+    .kb-browse-{{::c.data.instanceid}} .kb-browse-tiles-2{
+      display: table;
+      margin: 0 auto;
+    }
+    .kb-browse-{{::c.data.instanceid}} .kb-browse-tiles-1{
+      display: table;
+      margin: 0 auto;
+    }
+    /*---------------------------- */
+    .kb-browse-{{::c.data.instanceid}} .kb-tile-block {
+      padding: 0 1rem;
+      width:50%
+    }
+    .kb-browse-{{::c.data.instanceid}} .kb-tile-block-2{
+      width:25rem;
+    }
+    .kb-browse-{{::c.data.instanceid}} .kb-tile-block-1{
+      width:25rem;
+    }
+  }
+  @media screen and (max-width: 798px){
+
+    .kb-browse-{{::c.data.instanceid}} .kb-browse-tiles{
+      display: table;
+      margin: 0 auto;
+    }
+    .kb-browse-{{::c.data.instanceid}} .kb-browse-tiles-3{
+      display: block;
+      margin: 0 auto;
+    }
+    /*---------------------------- */
+    .kb-browse-{{::c.data.instanceid}} .kb-tile-block {
+      padding: 0 1rem;
+      width:50%;
+    }
+    .kb-browse-{{::c.data.instanceid}} .kb-tile-block-2{
+      width:25rem;
+    }
+    .kb-browse-{{::c.data.instanceid}} .kb-tile-block-1{
+      width:25rem;
+    }
+  }
+  @media screen and (max-width: 546px){
+
+    .kb-browse-{{::c.data.instanceid}} .kb-browse-tiles-3{
+      display: block;
+      margin: 0 auto;
+    }
+    .kb-browse-{{::c.data.instanceid}} .kb-browse-tiles-2{
+      display: flex;
+      margin: 0 auto;
+    }
+    .kb-browse-{{::c.data.instanceid}} .kb-browse-tiles-1{
+      display: table;
+      margin: 0 auto;
+    }
+    /*---------------------------- */
+    .kb-browse-{{::c.data.instanceid}} .kb-tile-block {
+      padding: 0 0.4rem;
+    }
+    .kb-browse-{{::c.data.instanceid}} .kb-tile-block-2{
+      width:50%;
+    }
+    .kb-browse-{{::c.data.instanceid}} .kb-tile-block-1{
+      width:25rem;
+    }
+  }
+
+
+</style>]]></template>
+    </sp_widget>
+</record_update>
